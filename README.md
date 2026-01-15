@@ -29,7 +29,7 @@ My engineering background gives me a deep understanding of **complex systems and
 
 | 📍 Location | 🎓 Education | 🎯 Looking for |
 |:-----------:|:------------:|:--------------:|
-| Quito, Ecuador 🇪🇨 | Biomedical Engineering | Data Analyst / Data Scientist roles |
+| Ecuador 🇪🇨 | Biomedical Engineering | Data Analyst / Data Scientist roles |
 
 </div>
 

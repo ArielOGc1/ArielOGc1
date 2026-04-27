@@ -80,7 +80,7 @@ My engineering background gives me a deep understanding of **complex systems and
 | 🔍 [**SPAM Detection**](https://github.com/ArielOGc1/spam-emails) | Email classifier with 98% accuracy using NLP & Logistic Regression | Python, NLTK, Scikit-Learn |
 | 👥 [**User Classification**](https://github.com/ArielOGc1/Prediccion-planes) | Predict user subscription plans using Random Forest | Python, ML, EDA |
 | 🛢️ [**Oil Wells Prediction**](https://github.com/ArielOGc1/Prediccion-pozos) | Identify profitable regions for oil extraction | Python, Regression, Bootstrapping |
-| 💳 **Credit Scoring Pipeline** | *(Coming Soon)* Automated credit risk prediction system | Python, ML, Fintech |
+| 💳 [**Credit Scoring Pipeline**](https://github.com/ArielOGc1/credit_scoring_ml) | Automated credit risk prediction system | Python, ML, Fintech |
 
 </div>
 

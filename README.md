@@ -12,7 +12,7 @@
 <br>
 <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="150"/>
 </div>
----
+
  
 ## 👨‍💻 About Me
  
@@ -20,12 +20,10 @@ I'm a **Biomedical Engineer** with a specialization in **Data Science**. I apply
  
 My engineering background gives me a deep understanding of **complex systems and critical variables**, which I combine with **Python, SQL, and Machine Learning** to transform data into actionable insights.
  
-<div align="center">
-| 📍 Location | 🎓 Education | 🎯 Looking for |
-|:-----------:|:------------:|:--------------:|
-| Ecuador 🇪🇨 | Biomedical Engineering | Data Analyst / Data Scientist roles |
+📍 **Location:** Ecuador 🇪🇨  
+🎓 **Education:** Biomedical Engineering  
+🎯 **Looking for:** Data Analyst / Data Scientist roles
  
-</div>
 ---
  
 ## 🏥 Technical Experience
@@ -53,16 +51,23 @@ My engineering background gives me a deep understanding of **complex systems and
 ---
  
 ## 🛠️ Tech Stack
- 
-<div align="center">
+
 ### Languages & Core Tools
+
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
- 
+
+</div>
+
 ### Data Science & Machine Learning
+
+<div align="center">
+
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
@@ -70,21 +75,43 @@ My engineering background gives me a deep understanding of **complex systems and
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
- 
+
 </div>
----
+
  
 ## 🚀 Featured Projects
  
-<div align="center">
-| Project | Description | Tech Stack | Demo |
-|:--------|:------------|:-----------|:----:|
-| 💳 [**Credit Scoring Pipeline**](https://github.com/ArielOGc1/credit_scoring_ml) | Automated credit risk prediction system with interactive interface | Python, Scikit-Learn, Streamlit | [🚀 Live](https://credit-scoring-ml.streamlit.app/) |
-| 🛢️ [**Oil Wells Prediction**](https://github.com/ArielOGc1/Prediccion-pozos) | Identify profitable regions for oil extraction using regression | Python, Regression, Bootstrapping | |
-| 👥 [**User Classification**](https://github.com/ArielOGc1/Prediccion-planes) | Predict user subscription plans using Random Forest | Python, ML, EDA | |
-| 🔍 [**SPAM Detection**](https://github.com/ArielOGc1/spam-emails) | Email classifier with high accuracy using NLP & Logistic Regression | Python, NLTK, Scikit-Learn | |
+### 💳 Credit Scoring Pipeline
+Automated credit risk prediction system with interactive interface
  
-</div>
+**Repository:** [github.com/ArielOGc1/credit_scoring_ml](https://github.com/ArielOGc1/credit_scoring_ml)  
+**Live Demo:** [🚀 credit-scoring-ml.streamlit.app](https://credit-scoring-ml.streamlit.app/)  
+**Tech Stack:** Python, Scikit-Learn, Streamlit, Pandas, NumPy
+ 
+---
+ 
+### 🛢️ Oil Wells Prediction
+Identify profitable regions for oil extraction using regression analysis
+ 
+**Repository:** [github.com/ArielOGc1/Prediccion-pozos](https://github.com/ArielOGc1/Prediccion-pozos)  
+**Tech Stack:** Python, Regression, Bootstrapping, Scikit-Learn
+ 
+---
+ 
+### 👥 User Classification
+Predict user subscription plans using machine learning
+ 
+**Repository:** [github.com/ArielOGc1/Prediccion-planes](https://github.com/ArielOGc1/Prediccion-planes)  
+**Tech Stack:** Python, Random Forest, EDA, Pandas
+ 
+---
+ 
+### 🔍 SPAM Detection
+Email classifier with high accuracy using NLP & Logistic Regression
+ 
+**Repository:** [github.com/ArielOGc1/spam-emails](https://github.com/ArielOGc1/spam-emails)  
+**Tech Stack:** Python, NLTK, Scikit-Learn, NLP
+ 
 ---
  
 ## ✨ Education & Certifications
@@ -92,23 +119,25 @@ My engineering background gives me a deep understanding of **complex systems and
 - 🎓 **Data Scientist** — TripleTen Bootcamp *(Completed, 2025)*
 - 🎓 **Python for Data Analysis** — Udemy *(Completed, 2025)*
 - 🧬 **Biomedical Engineering** — Pontifical Salesiana University *(Graduate, July 2026)*
+  
 ---
  
 ## 📫 Let's Connect!
- 
+
 I'm open to collaborating on projects or discussing opportunities in **Data Science, Healthcare Analytics, Medical Device Optimization**, or **Technical Analysis**.
- 
-<div align="center">
-[![LinkedIn](https://img.shields.io/badge/Let's_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-ortega-guerron)
-[![Portfolio](https://img.shields.io/badge/Visit_My_Portfolio-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arielogc1.github.io)
-[![Email](https://img.shields.io/badge/Send_Me_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arielguerron@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-ortega-guerron)
+[![Portfolio](https://img.shields.io/badge/Portfolio-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arielogc1.github.io)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arielguerron@gmail.com)
  
 </div>
+
 ---
  
 <details>
 <summary>🇪🇸 <strong>Versión en Español (Clic para expandir)</strong></summary>
 <br>
+  
 ## 👨‍💻 Sobre Mí
  
 Soy **Ingeniero Biomédico** con especialización en **Ciencia de Datos**. Aplico estadística, modelos predictivos y análisis de datos para mejorar procesos y tomar decisiones en entornos técnicos, científicos y de negocio.
@@ -145,14 +174,11 @@ Mi formación en ingeniería me da una comprensión profunda de **sistemas compl
 Resiliencia, autogestión y fuerte orientación al trabajo en equipo.
  
 </details>
+
 ---
  
 <div align="center">
   
 **⭐ If you find my projects interesting, don't forget to star them!**
  
-</div>
-  
-**⭐ If you find my projects interesting, don't forget to star them!**
-
 </div>

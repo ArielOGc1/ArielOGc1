@@ -16,12 +16,12 @@
  
 ## 👨‍💻 About Me
  
-I'm a **Biomedical Engineer** with a specialization in **Data Science**. I build machine learning models and take them all the way to production — from data and training to tested, containerized, deployed services.
+I'm a **Biomedical Engineer** trained in **Data Science**. I build machine learning models and take them all the way to production — from data and training to tested, containerized, deployed services.
  
 My engineering background gives me a solid grasp of **complex systems and critical variables**, which I combine with **Python, SQL, and Machine Learning** to turn data into decisions. What I care about most is **end-to-end execution**: not just training a model in a notebook, but shipping it as something people can actually use.
  
-📍 **Location:** Ecuador 🇪🇨  
-🎓 **Education:** Biomedical Engineering  
+📍 **Location:** Ecuador 🇪🇨 (open to remote work)  
+🎓 **Education:** B.Eng. in Biomedical Engineering — Universidad Politécnica Salesiana (2026)  
 🎯 **Looking for:** Data Analyst / Data Scientist / ML Engineer roles
  
 ---
@@ -31,7 +31,7 @@ My engineering background gives me a solid grasp of **complex systems and critic
 - 🏭 **Deploying ML models to the cloud** — Docker containers on Google Cloud Run with live REST endpoints
 - 🧠 Studying **Deep Learning** hands-on with **fastai / PyTorch**
 - 📐 Reinforcing the **math foundations** of ML — Linear Algebra, Calculus, Probability & Statistics
-- 🗄️ Sharpening **SQL** for data analysis and building **BI dashboards** (Power BI)
+- 🗄️ Building an **end-to-end financial analysis** of ~154k Ecuadorian companies with **PostgreSQL** and **Power BI** *(in progress)*
 - 🔄 Continuous, structured self-learning toward research-grade ML
 
 ---
@@ -79,6 +79,14 @@ My engineering background gives me a solid grasp of **complex systems and critic
  
 ## 🚀 Featured Projects
 
+### 🧠 MACS — Mobile Stress Classification from Wearable Signals *(Engineering Thesis)*
+Binary stress classification (baseline vs. induced stress) from wrist-worn physiological signals (Empatica E4, WESAD dataset, 15 subjects). Full pipeline: signal preprocessing → feature extraction (EDA, HRV from BVP, accelerometer, skin temperature) → 12 features selected via statistical testing → Leave-One-Subject-Out validation of 5 models. **Best balanced accuracy 0.919 (SVM)**, with SHAP and ablation analysis. Honest cross-dataset evaluation on an independent dataset (~0.59) documents where the model generalizes and where it does not. Deployed as a **Flutter app** with on-device inference (quantized **TFLite, ~9 KB**) and a **FastAPI** backend supporting CSV upload, simulated streaming and direct BLE connection.
+
+**Repository:** [github.com/ArielOGc1/app-stress](https://github.com/ArielOGc1/app-stress)  
+**Tech Stack:** Python · NeuroKit2 · Scikit-Learn · XGBoost · SHAP · TFLite · FastAPI · Flutter
+
+---
+
 ### 🏭 Casting Defect Classifier — End-to-End ML Deployment
 A deep learning model for manufacturing quality control, taken from training all the way to a **live, containerized REST API**. Evaluation is recall-focused (0.99 on the defect class), because in QC a missed defect costs far more than a false alarm. Documents the real engineering decisions — stratified splitting, Docker layer caching, cloud deployment gotchas — not just the accuracy score.
 
@@ -89,7 +97,7 @@ A deep learning model for manufacturing quality control, taken from training all
 ---
  
 ### 💳 Credit Scoring Pipeline
-Automated credit risk prediction system with an interactive interface.
+Modular credit-risk pipeline predicting probability of default on highly imbalanced data (~1.7% positives): schema validation, WOE encoding fitted only on training data (no leakage), class weighting, automated model selection and versioned artifacts. **ROC AUC 0.849 · Gini 0.698**, with an interactive Streamlit simulator to explore decision thresholds.
  
 **Repository:** [github.com/ArielOGc1/credit_scoring_ml](https://github.com/ArielOGc1/credit_scoring_ml)  
 **Live Demo:** [🚀 credit-scoring-ml.streamlit.app](https://credit-scoring-ml.streamlit.app/)  
@@ -125,8 +133,8 @@ Email classifier using NLP and logistic regression.
 
 Before focusing on data science, I worked hands-on with medical and dental equipment — technical diagnosis, preventive maintenance, and training support in clinical environments.
 
-- **Clinical Equipment Maintenance** — Dental Medical Solutions *(Sep 2024 – Oct 2025)*
-- **Biomedical Training Programs** — Biomedicina Masters *(Feb 2024 – Sep 2025)*
+- **Technical Assistant (Internship)** — Dental Medical Solutions *(Sep 2024 – Oct 2025)*
+- **Technical Volunteer** — Biomedicina Masters *(Feb 2024 – Sep 2025)*
 
 **Why it matters:** this background gives me real domain familiarity with medical devices and physiological signals — my thesis worked on physiological stress classification from biosignals (EDA, HRV, BVP) — which I'm bringing together with ML toward healthcare and biosignal applications.
  
@@ -134,9 +142,10 @@ Before focusing on data science, I worked hands-on with medical and dental equip
  
 ## ✨ Education & Certifications
  
-- 🎓 **Data Scientist** — TripleTen Bootcamp *(Completed, 2025)*
-- 🎓 **Python for Data Analysis** — Udemy *(Completed, 2025)*
-- 🧬 **Biomedical Engineering** — Salesian Polytechnic University *(Graduate, 2026)*
+- 🧬 **B.Eng. in Biomedical Engineering** — Universidad Politécnica Salesiana *(2026)*
+- 🎓 **Data Scientist Bootcamp** — TripleTen *(Mar – Dec 2025)*
+- 🗄️ **Aprende SQL** — midudev *(2026)*
+- 🐍 **Complete Python Course: Python Programming from Scratch** — Udemy *(2025)*
   
 ---
  
@@ -156,7 +165,7 @@ I'm open to collaborating on projects or discussing opportunities in **Data Scie
   
 ## 👨‍💻 Sobre Mí
  
-Soy **Ingeniero Biomédico** con especialización en **Ciencia de Datos**. Construyo modelos de machine learning y los llevo hasta producción — desde los datos y el entrenamiento hasta servicios probados, contenerizados y desplegados.
+Soy **Ingeniero Biomédico** con formación en **Ciencia de Datos**. Construyo modelos de machine learning y los llevo hasta producción — desde los datos y el entrenamiento hasta servicios probados, contenerizados y desplegados.
  
 Mi formación en ingeniería me da una comprensión sólida de **sistemas complejos y variables críticas**, que combino con **Python, SQL y Machine Learning** para transformar datos en decisiones. Lo que más me importa es la **ejecución de extremo a extremo**: no solo entrenar un modelo en un notebook, sino desplegarlo como algo que la gente pueda usar.
  
@@ -165,23 +174,24 @@ Mi formación en ingeniería me da una comprensión sólida de **sistemas comple
 - 🏭 **Desplegando modelos de ML en la nube** — contenedores Docker en Google Cloud Run con endpoints REST en vivo
 - 🧠 Estudiando **Deep Learning** de forma práctica con **fastai / PyTorch**
 - 📐 Reforzando las **bases matemáticas** del ML — Álgebra Lineal, Cálculo, Probabilidad y Estadística
-- 🗄️ Afinando **SQL** para análisis de datos y construyendo **dashboards de BI** (Power BI)
+- 🗄️ Construyendo un **análisis financiero de extremo a extremo** de ~154 mil empresas ecuatorianas con **PostgreSQL** y **Power BI** *(en curso)*
 - 🔄 Aprendizaje autodidacta continuo y estructurado hacia ML de nivel investigativo
  
 ## 🧬 Experiencia Técnica
  
 Antes de enfocarme en ciencia de datos, trabajé de forma práctica con equipos médicos y odontológicos — diagnóstico técnico, mantenimiento preventivo y soporte en capacitaciones en ambientes clínicos.
 
-- **Mantenimiento de Equipos Clínicos** — Dental Medical Solutions *(Sep 2024 – Oct 2025)*
-- **Programas de Capacitación Biomédica** — Biomedicina Masters *(Feb 2024 – Sep 2025)*
+- **Asistente Técnico (Pasantía)** — Dental Medical Solutions *(Sep 2024 – Oct 2025)*
+- **Voluntario Técnico** — Biomedicina Masters *(Feb 2024 – Sep 2025)*
 
 **Por qué importa:** esta formación me da familiaridad real con dispositivos médicos y señales fisiológicas — mi tesis trabajó en clasificación de estrés fisiológico a partir de bioseñales (EDA, HRV, BVP) — que estoy uniendo con ML hacia aplicaciones de salud y bioseñales.
  
 ## ✨ Formación
  
-- 🎓 **Data Scientist** — TripleTen Bootcamp *(Completado, 2025)*
-- 🎓 **Python para Análisis de Datos** — Udemy *(Completado, 2025)*
-- 🧬 **Ingeniería Biomédica** — Universidad Politécnica Salesiana *(Egresado, 2026)*
+- 🧬 **Ingeniería Biomédica** — Universidad Politécnica Salesiana *(Titulado, 2026)*
+- 🎓 **Bootcamp Data Scientist** — TripleTen *(Mar – Dic 2025)*
+- 🗄️ **Aprende SQL** — midudev *(2026)*
+- 🐍 **Curso completo de Python: Programación en Python desde cero** — Udemy *(2025)*
  
 ## 💼 Habilidades Blandas
  

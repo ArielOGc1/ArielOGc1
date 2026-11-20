@@ -12,7 +12,6 @@
 <br>
 <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="150"/>
 </div>
-
  
 ## 👨‍💻 About Me
  
@@ -27,73 +26,81 @@ My engineering background gives me a solid grasp of **complex systems and critic
 ---
  
 ## 🚀 What I'm Currently Doing
-
+ 
 - 🏭 **Deploying ML models to the cloud** — Docker containers on Google Cloud Run with live REST endpoints
 - 🧠 Studying **Deep Learning** hands-on with **fastai / PyTorch**
 - 📐 Reinforcing the **math foundations** of ML — Linear Algebra, Calculus, Probability & Statistics
-- 🗄️ Building an **end-to-end financial analysis** of ~154k Ecuadorian companies with **PostgreSQL** and **Power BI** *(in progress)*
+- ✅ **Just shipped:** an end-to-end analysis of 154k Ecuadorian companies with **PostgreSQL** and **Power BI** ([see project](https://github.com/ArielOGc1/scvs))
 - 🔄 Continuous, structured self-learning toward research-grade ML
-
 ---
  
 ## 🛠️ Tech Stack
-
+ 
 ### Languages & Core Tools
-
+ 
 <div align="center">
-
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-00758F?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-
+ 
 </div>
-
-### Data Science & Machine Learning
-
+### Data Analysis & BI
+ 
 <div align="center">
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
+ 
 </div>
-
-### MLOps & Deployment
-
+### Machine Learning
+ 
 <div align="center">
-
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+ 
+</div>
+### MLOps & Deployment
+ 
+<div align="center">
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-
+ 
 </div>
-
 ---
  
 ## 🚀 Featured Projects
-
+ 
 ### 🧠 MACS — Mobile Stress Classification from Wearable Signals *(Engineering Thesis)*
 Binary stress classification (baseline vs. induced stress) from wrist-worn physiological signals (Empatica E4, WESAD dataset, 15 subjects). Full pipeline: signal preprocessing → feature extraction (EDA, HRV from BVP, accelerometer, skin temperature) → 12 features selected via statistical testing → Leave-One-Subject-Out validation of 5 models. **Best balanced accuracy 0.919 (SVM)**, with SHAP and ablation analysis. Honest cross-dataset evaluation on an independent dataset (~0.59) documents where the model generalizes and where it does not. Deployed as a **Flutter app** with on-device inference (quantized **TFLite, ~9 KB**) and a **FastAPI** backend supporting CSV upload, simulated streaming and direct BLE connection.
-
+ 
 **Repository:** [github.com/ArielOGc1/app-stress](https://github.com/ArielOGc1/app-stress)  
 **Tech Stack:** Python · NeuroKit2 · Scikit-Learn · XGBoost · SHAP · TFLite · FastAPI · Flutter
-
+ 
 ---
-
+ 
+### 📊 Ecuador Business Landscape 2025 — SQL + Power BI
+End-to-end analysis of the 2025 financial statements of **154,343 Ecuadorian companies** using public data from the Superintendencia de Compañías (SCVS). ELT pipeline: Python loads the raw CSVs into **PostgreSQL**, and all cleaning happens in **SQL**, ending in a star schema. Every layer is validated (idempotent, transactional scripts that abort on row-count, null or orphan-key failures), and **every dashboard figure is reconciled against SQL**. Answers 4 business questions — sector concentration (CR4), aggregate vs. median net margin, and activity by province — in a 4-page **Power BI** dashboard with DAX measures. Key finding: **Finance and Mining earn 43% of net profit with only 8% of sales.**
+ 
+**Repository:** [github.com/ArielOGc1/scvs](https://github.com/ArielOGc1/scvs)  
+**Tech Stack:** Python · PostgreSQL · SQL · Power BI (DAX) · Docker
+ 
+---
+ 
 ### 🏭 Casting Defect Classifier — End-to-End ML Deployment
 A deep learning model for manufacturing quality control, taken from training all the way to a **live, containerized REST API**. Evaluation is recall-focused (0.99 on the defect class), because in QC a missed defect costs far more than a false alarm. Documents the real engineering decisions — stratified splitting, Docker layer caching, cloud deployment gotchas — not just the accuracy score.
-
+ 
 **Repository:** [github.com/ArielOGc1/casting-defect-classifier](https://github.com/ArielOGc1/casting-defect-classifier)  
 **Live API:** [🚀 Try it on Cloud Run](https://casting-defect-classifier-97063919254.us-central1.run.app/docs)  
 **Tech Stack:** fastai · PyTorch · FastAPI · Docker · pytest · Google Cloud Run
-
+ 
 ---
  
 ### 💳 Credit Scoring Pipeline
@@ -130,12 +137,11 @@ Email classifier using NLP and logistic regression.
 ---
  
 ## 🧬 Technical Background
-
+ 
 Before focusing on data science, I worked hands-on with medical and dental equipment — technical diagnosis, preventive maintenance, and training support in clinical environments.
-
+ 
 - **Technical Assistant (Internship)** — Dental Medical Solutions *(Sep 2024 – Oct 2025)*
 - **Technical Volunteer** — Biomedicina Masters *(Feb 2024 – Sep 2025)*
-
 **Why it matters:** this background gives me real domain familiarity with medical devices and physiological signals — my thesis worked on physiological stress classification from biosignals (EDA, HRV, BVP) — which I'm bringing together with ML toward healthcare and biosignal applications.
  
 ---
@@ -150,13 +156,13 @@ Before focusing on data science, I worked hands-on with medical and dental equip
 ---
  
 ## 📫 Let's Connect!
-
-I'm open to collaborating on projects or discussing opportunities in **Data Science, Machine Learning, ML Deployment**, and **biosignal / healthcare analytics**.
-
+ 
+I'm open to collaborating on projects or discussing opportunities in **Data Analysis, Data Science, Machine Learning, ML Deployment**, and **biosignal / healthcare analytics**.
+ 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-ortega-guerron)
 [![Portfolio](https://img.shields.io/badge/Portfolio-00d4ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://arielogc1.github.io)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arielguerron@gmail.com)
-
+ 
 ---
  
 <details>
@@ -174,16 +180,18 @@ Mi formación en ingeniería me da una comprensión sólida de **sistemas comple
 - 🏭 **Desplegando modelos de ML en la nube** — contenedores Docker en Google Cloud Run con endpoints REST en vivo
 - 🧠 Estudiando **Deep Learning** de forma práctica con **fastai / PyTorch**
 - 📐 Reforzando las **bases matemáticas** del ML — Álgebra Lineal, Cálculo, Probabilidad y Estadística
-- 🗄️ Construyendo un **análisis financiero de extremo a extremo** de ~154 mil empresas ecuatorianas con **PostgreSQL** y **Power BI** *(en curso)*
+- ✅ **Recién terminado:** análisis de extremo a extremo de 154 mil empresas ecuatorianas con **PostgreSQL** y **Power BI** ([ver proyecto](https://github.com/ArielOGc1/scvs))
 - 🔄 Aprendizaje autodidacta continuo y estructurado hacia ML de nivel investigativo
+## 📊 Proyecto Destacado: Panorama Empresarial del Ecuador 2025
+ 
+Análisis de los estados financieros 2025 de **154.343 empresas ecuatorianas** con datos públicos de la Superintendencia de Compañías. Pipeline ELT (Python → PostgreSQL → SQL) hasta un modelo estrella, validación en cada capa y un dashboard de **Power BI** de 4 páginas con cada cifra cuadrada contra SQL. Hallazgo principal: **Finanzas y Minería generan el 43% de la utilidad con solo el 8% de las ventas.**
  
 ## 🧬 Experiencia Técnica
  
 Antes de enfocarme en ciencia de datos, trabajé de forma práctica con equipos médicos y odontológicos — diagnóstico técnico, mantenimiento preventivo y soporte en capacitaciones en ambientes clínicos.
-
+ 
 - **Asistente Técnico (Pasantía)** — Dental Medical Solutions *(Sep 2024 – Oct 2025)*
 - **Voluntario Técnico** — Biomedicina Masters *(Feb 2024 – Sep 2025)*
-
 **Por qué importa:** esta formación me da familiaridad real con dispositivos médicos y señales fisiológicas — mi tesis trabajó en clasificación de estrés fisiológico a partir de bioseñales (EDA, HRV, BVP) — que estoy uniendo con ML hacia aplicaciones de salud y bioseñales.
  
 ## ✨ Formación
@@ -198,7 +206,6 @@ Antes de enfocarme en ciencia de datos, trabajé de forma práctica con equipos 
 Resiliencia, autogestión y fuerte orientación al trabajo en equipo.
  
 </details>
-
 ---
  
 <div align="center">
